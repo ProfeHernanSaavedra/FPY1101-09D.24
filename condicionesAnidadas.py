@@ -17,6 +17,8 @@ else:
             print("es un niño")
         else:
             if edad >12 and edad <18:
-                print("ud es una adolescente") 
+                print("ud es una adolescente")
+                
+print("FIN") 
                 
             

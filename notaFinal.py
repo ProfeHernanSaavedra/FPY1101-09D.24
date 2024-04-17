@@ -28,3 +28,5 @@ if notaFinal >= 40:
     print("Ud aprobo")
 else:
     print("Ud ha reprobado")
+
+print("Cambio!!")

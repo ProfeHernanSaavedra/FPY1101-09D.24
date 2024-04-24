@@ -22,7 +22,7 @@ num = int(input("Ingrese un numero a realiza tabla: "))
 for i in range(1,11):
     multi = num*i
     print(num,"x",i,"=",multi) 
-    '''
+    
 #while --> mientras   
 
 #mientras condicion 
@@ -34,6 +34,32 @@ while cont < 3:
     suma = suma + nota
 promedio = suma /3
 print("el promedio es ", promedio)
+    '''
+# while True-----> repetir
+while True:
+    print("   MENU   ")
+    print("1. Opción 1")
+    print("2. Opción 2")
+    print("3. Salir")
+    try:
+        opc = int(input("Ingrese opción: "))
+        if opc>0 and opc <4:
+            
+            if opc == 1:
+                print("Ingrese opción 1")
+            else:
+                if opc == 2:
+                    print("Haga la opción 2")
+                else:
+                    if opc == 3:
+                        break
+        else:
+            print("la opción debe estar entre 1 y 3")
+    except:
+        print("Debe ser un número")
+                  
     
-
+   
+    
+    
 

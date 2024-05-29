@@ -1,7 +1,15 @@
+lista = []
+
 mi_diccionario = {
     "nombre" : "Juan",
     "edad" : 30,
     "ciudad" : "Viña"
+}
+
+mi_diccionario2 = {
+    "nombre" : "Maria",
+    "edad" : 21,
+    "ciudad" : "Valpo"
 }
 
 print(mi_diccionario)
@@ -28,3 +36,11 @@ else:
     
 if "Juan" == mi_diccionario["nombre"]:
     print("Existe Juan")
+
+lista.append(mi_diccionario)
+lista.append(mi_diccionario2)
+
+print(lista)
+
+for fila in lista:
+    print(fila)

@@ -1,0 +1,14 @@
+Nombre y Apellido :bb bb
+Cargo :desarrollador
+Sueldo Bruto :1500
+Desc Salud :105.00000000000001
+Desc AFP :180.0
+Liquido a Pagar  :1215.0
+
+Nombre y Apellido :dd dd 
+Cargo :desarrollador
+Sueldo Bruto :1500
+Desc Salud :105.00000000000001
+Desc AFP :180.0
+Liquido a Pagar  :1215.0
+
